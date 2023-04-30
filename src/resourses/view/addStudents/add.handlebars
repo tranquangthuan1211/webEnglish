@@ -1,0 +1,76 @@
+<div class='content_add'>
+    <div class='content_course'>
+        <div class='header_course'>
+
+            <div class='logo-app'>
+                <img class='logo-app-image' src='/image/logo.png' />
+            </div>
+            <div class='user'>
+                <div class='user-content'>
+                    {{#each users}}
+                        <p class='name'>
+                            {{this.latsName}}
+                            {{this.firstName}}
+                        </p>
+                    {{/each}}
+                </div>
+                <div class='user-icon'>
+
+                    <P><i class='fas fa-home'></i></P>
+                    <p><i class='fas fa-bell'></i></p>
+                    <p><i class='fas fa-cog btn_setting'></i></p>
+                </div>
+
+                <div class='content_setting_none'>
+                    <div class='btn_logout'>
+                        <a href='/' class='link_logout'>Log out</a>
+                    </div>
+                    <div class='btn_pass'>
+                        <a href='/change-pass-word' class='link_changePass'>change pass</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='sizebar'>
+            <div class='btn sizebar-home home'>
+                <button><a href='/user/home'>Home</a></button>
+
+            </div>
+            <div class='btn courses'>
+                <button class='courses-btn'><a href='/post/home-work'>Post Homework</a></button>
+            </div>
+            <div class='btn skills'>
+                <button class='skills-btn'><a href='/post/document'>Post Documents</a></button>
+            </div>
+            <div class='btn grammar'>
+                <button class='gammar-btn'><a href='/add'>Add Students</a></button>
+            </div>
+            <div class='btn vocabulary'>
+                <button class='vocabulary-btn'><a href='/advice'>Advice</a></button>
+            </div>
+            <div class='btn vocabulary'>
+                <button class='vocabulary-btn'><a href='/post/schedule'>Schedule</a></button>
+            </div>
+        </div>
+    </div>
+    <div class='content_add-students'>
+        <h1 style='text-align: center;'>ADD STUDENTS</h1>
+        <form method='POST' action='/add?_method=PUT'>
+            <div class='form-group'>
+                <input
+                    type='email'
+                    class='form-control'
+                    id='exampleInputEmail1'
+                    aria-describedby='emailHelp'
+                    placeholder='Enter email'
+                    name='email'
+                />
+            </div>
+            <div class='form-group'>
+                <input type='text' class='form-control' id='exampleInputPassword1' placeholder='Phone Number' />
+            </div>
+            <button type='submit' class='btn btn-primary'>Submit</button>
+        </form>
+    </div>
+</div>

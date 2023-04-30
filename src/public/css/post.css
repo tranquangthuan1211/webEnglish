@@ -1,0 +1,55 @@
+.content_post,
+.content_add,
+.content_advice,
+.content_update {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZE2bRradY6EekSEv9_FpKbsP1sCsR-DZWQQ&usqp=CAU');
+    background-size: cover;
+}
+.background_schdedule {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZE2bRradY6EekSEv9_FpKbsP1sCsR-DZWQQ&usqp=CAU');
+    background-size: cover;
+    height: 1880;
+}
+.form_advice,
+.form_update_Schedule,
+.content_add-students,
+.post_home_work,
+.content_post_schedule {
+    padding: 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+}
+.content_post_schedule {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* alert */
+.alert {
+    width: 350px;
+    overflow: hidden;
+    position: absolute;
+    background-color: #fff;
+    top: 50%;
+    left: 40%;
+    padding: 10 10px;
+}
+.none_alert {
+    display: none;
+}
+.content_shedule_post_input {
+    display: flex;
+    justify-content: space-between;
+}
+.input_schedule {
+    width: 46%;
+}
+.form {
+    width: 100%;
+}
+.textarea {
+    width: 1200px;
+    height: 100px;
+}

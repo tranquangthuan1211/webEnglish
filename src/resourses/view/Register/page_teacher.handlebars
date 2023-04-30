@@ -1,0 +1,38 @@
+<form class='form_teacher' method='post' action='/register/teacher'>
+    <div class='form_teacher-content'>
+        <div class='form-row'>
+            <div class='name'>
+                <input type='text' class='last-name' placeholder='Last Name' name='latsName' />
+                <input type='text' class='first-name' placeholder='First Name' name='firstName' />
+
+            </div>
+            <div class='email'>
+                <input type='email' class='email_value' id='inputEmail4' placeholder='Email' name='email' />
+            </div>
+            <div class='password'>
+                <input type='password' class='password_value' id='inputPassword4' placeholder='Password' name='pass' />
+            </div>
+        </div>
+        <p class='birth_day'>sinh nhật <span>?</span></p>
+        <div class='infor_teacher'>
+            <input type='text' class='day' placeholder='day' name='day' />
+            <input type='text' class='month' placeholder='month' name='month' />
+            <input type='text' class='yeard' placeholder='yeard' name='yeard' />
+        </div>
+        <p class='sex1'>Sex <span>?</span></p>
+        <div class='sex'>
+            <div>
+                <input type='radio' id='nam' name='fav_sex' />
+                <label for='nam'>Nam</label><br />
+            </div>
+            <div>
+
+                <input type='radio' id='nu' name='fav_sex' />
+                <label for='nu'>Nu</label><br />
+            </div>
+        </div>
+        <div class='submit-register'>
+            <button type='submit' class='btn-submit-register'>Register</button>
+        </div>
+    </div>
+</form>

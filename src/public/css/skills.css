@@ -1,0 +1,50 @@
+.content_skills {
+    width: 1300px;
+    margin: 0 auto;
+}
+.choose_skills {
+    padding: 10px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.skill {
+    margin: 18px 0;
+    display: flex;
+    position: relative;
+}
+.listening_image {
+    border-bottom-left-radius: 30px;
+}
+.link-skill:hover {
+    color: #337ab7;
+    border-bottom: 1px solid #337ab7;
+    width: 150px;
+}
+.description_listening {
+    position: absolute;
+    padding: 20px;
+    width: 400px;
+    background-color: #fff;
+    left: 280;
+    top: 40;
+    border-top-left-radius: 30px;
+}
+.link-live {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* listening */
+.content_listening {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.level-listening {
+    font-weight: 500;
+}
+.body_listening-image {
+    width: 900px;
+    margin-right: 20px;
+}

@@ -1,0 +1,124 @@
+.image-introduce {
+    width: 100%;
+}
+.teacher-courses {
+    position: absolute;
+    bottom: 160px;
+    left: 34px;
+    width: 400px;
+    height: 236px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 30px;
+}
+.intro-teacher {
+    color: #23085a;
+}
+.teacher-courses button {
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #23085a;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+}
+.teacher-courses button:hover {
+    background-color: #337ab7;
+}
+
+/* introduction */
+.introduction {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.introduction h1 {
+    color: #23085a;
+}
+/*ingredient  */
+.ingredient {
+    width: 100%;
+    margin-top: 40px;
+    background-color: #337ab7;
+    display: flex;
+}
+.ingredient_class {
+    width: 380px;
+    background-color: #fff;
+    margin: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+}
+.ingredient_image {
+    width: 100%;
+    background-size: cover;
+}
+.ingredient_class h2 {
+    color: #23085a;
+    margin: 4px 20px;
+}
+.ingredient_class p {
+    font-size: 1.2rem;
+    margin: 4px 20px;
+}
+.ingredient_class button {
+    width: 200px;
+    height: 40px;
+    margin: 50px 50px;
+    border-radius: 40px;
+    background-color: #23085a;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.recommend-month {
+    display: flex;
+    justify-content: space-around;
+}
+.topic {
+    width: 500px;
+}
+.topic_image {
+    width: 500px;
+}
+.topic h1 {
+    color: #23085a;
+}
+.topic h1:hover {
+    color: #337ab7;
+    text-decoration: dashed;
+}
+
+/* home teacher */
+.student_management {
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZE2bRradY6EekSEv9_FpKbsP1sCsR-DZWQQ&usqp=CAU');
+    background-size: cover;
+    margin-top: 10px;
+}
+/* table score */
+.table-score {
+    width: 1300px;
+    margin: 0 auto;
+}
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.title_name {
+    background-color: #96d4d4;
+    width: 400px;
+    height: 30px;
+    margin: 4px 4px;
+    line-height: 30px;
+}
+.modal {
+    width: 300px;
+}

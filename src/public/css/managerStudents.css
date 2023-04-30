@@ -1,0 +1,15 @@
+.manger_students {
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZE2bRradY6EekSEv9_FpKbsP1sCsR-DZWQQ&usqp=CAU');
+    background-size: cover;
+}
+.name_student {
+    text-align: center;
+}
+.form-score {
+    width: 900px;
+    margin: 0 auto;
+}
+.btn-update-score {
+    color: '#fff';
+}

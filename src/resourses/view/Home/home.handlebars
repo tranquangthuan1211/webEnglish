@@ -1,0 +1,228 @@
+{{#if student}}
+    <div class='content_course'>
+        <div class='header_course'>
+
+            <div class='logo-app'>
+                <img class='logo-app-image' src='/image/logo.png' />
+            </div>
+            <div class='user'>
+                <div class='user-content'>
+                    {{#each users}}
+                        <p class='name'>
+                            {{this.latsName}}
+                            {{this.firstName}}
+                        </p>
+                    {{/each}}
+                </div>
+                <div class='user-icon'>
+
+                    <P><i class='fas fa-home'></i></P>
+                    <p><i class='fas fa-bell'></i></p>
+                    <p><i class='fas fa-cog setting'></i></p>
+                </div>
+
+                <div class='content_setting_none'>
+                    <div class='btn_logout'>
+                        <a href='/' class='link_logout'>Log out</a>
+                    </div>
+                    <div class='btn_pass'>
+                        <a href='/change-pass-word' class='link_changePass'>change pass</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='sizebar'>
+            <div class='btn sizebar-home home'>
+                <button><a href='/user/home'>Home</a></button>
+            </div>
+            <div class='btn courses'>
+                <button class='courses-btn'><a href=''>Online Courses</a></button>
+                <div class='more-courses'>
+                    <button><a href='/schedule'>schedule</a></button>
+                    <button><a href='/live-course'>live online classes</a></button>
+                    <button><a href='/ielts'>IELTS online courses</a></button>
+                </div>
+            </div>
+            <div class='btn skills'>
+                <button class='skills-btn'><a href='/skills'>Skills</a></button>
+                <div class='more-skills'>
+                    <button><a href='/skills/listening'>Listening</a></button>
+                    <button><a href='/skills/speaking'>Speaking</a></button>
+                    <button><a href='/skills/reading'>Reading</a></button>
+                    <button><a href='/skills/writting'>Writting</a></button>
+                </div>
+            </div>
+            <div class='btn grammar'>
+                <button class='gammar-btn'><a href='/grammar'>Grammar</a></button>
+                <div class='more-grammar'>
+                    <button><a href='/grammar/a1-a2-grammar'>A1-A2 grammar</a></button>
+                    <button><a href='/grammar/b1-b2-grammar'>B1-B2 grammar</a></button>
+                    <button><a href='/grammar/different-grammar'>DIfferent grammar</a></button>
+                </div>
+            </div>
+            <div class='btn vocabulary'>
+                <button class='vocabulary-btn'><a href='/vocabulary'>Vocabulary</a></button>
+                <div class='more-vocabulary'>
+                    <button><a href='/vocabulary/a1-a2-vocabulary'>A1-A2 vocabulary</a></button>
+                    <button><a href='/vocabulary/b1-b2-vocabulary'>B1-B2 vocabulary</a></button>
+                    <button><a href='/vocabulary/different-vocabulary'>DIfferent vocabulary</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='content-home'>
+        <img
+            class='image-introduce'
+            src='https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/1280x500/public/RS8957_GettyImages-1283427164-hig.jpg?itok=RMU5vjtU'
+        />
+        <div class='teacher-courses'>
+            <h1 class='intro-teacher'><a>English Online: 100% teacher-led course</a></h1>
+            <p>It's the season to boost your skills and your confidence speaking English! Get 20% off our live online
+                courses.</p>
+            <button>learn and share now</button>
+        </div>
+    </div>
+
+    <div class='introduction'>
+        <h1>Welcome to LearnEnglish</h1>
+        <p>Learn English online and improve your skills through our high-quality courses and resources – all designed
+            for adult language learners. Everything you find here has been specially created by the British Council, the
+            world's English teaching experts.</p>
+    </div>
+
+    <div class='ingredient'>
+        <div class='ingredient_class'>
+            <img
+                class='ingredient_image'
+                src='https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/430x261_4/public/2021-08/GettyImages-913682216_805.jpeg?itok=obWgc0Mu'
+            />
+            <h2>Live online classes</h2>
+            <p>Interactive group classes with expert teachers. Get a 20% discount.</p>
+            <button><a>Find out more</a></button>
+        </div>
+
+        <div class='ingredient_class'>
+            <img
+                class='ingredient_image'
+                src='https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/430x261_4/public/2021-09/GettyImages-1072206958_0.jpg?itok=qJTgFre7'
+            />
+            <h2>Self-study online courses</h2>
+            <p>Improve your English skills at your own pace. Get 50% off.</p>
+            <button><a>Find out more</a></button>
+        </div>
+
+        <div class='ingredient_class'>
+            <img
+                class='ingredient_image'
+                src='https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/430x261_4/public/2021-09/RS-1138994168_805_1.jpeg?itok=j2_zn9Ey'
+            />
+            <h2>Personal online tutoring</h2>
+            <p>Online one-to-one English tutoring – enjoy your first session for only $1.</p>
+            <button><a>Find out more</a></button>
+        </div>
+    </div>
+
+    <div class='recommend-month'>
+        <div class='topic'>
+            <img
+                class='topic_image'
+                src='https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/490x300/public/RS9218_GettyImages-1091997194-hig.jpg?itok=sKi9GczE'
+            />
+            <h1><a>Learning hub: Christmas</a></h1>
+            <p>Christmas is coming! In this topic you can learn lots about this special time of year and activate your
+                English at the same time by sharing your comments and photos with us. Between us all we'll learn about
+                how Christmas is celebrated around the world.</p>
+
+        </div>
+
+        <div class='topic'>
+            <img
+                class='topic_image'
+                src='https://learnenglish.britishcouncil.org/sites/podcasts/files/styles/490x300/public/RS7987_GettyImages-98478692-hig%20%281%29.jpg?itok=-TGAM-wL'
+            />
+            <h1><a>Learning Hub: Thanksgiving and gratitude</a></h1>
+            <p>Check out our new Learning hub and activate your English by sharing your ideas about celebrations with
+                friends and family and what you're grateful for..</p>
+
+        </div>
+    </div>
+
+    <div class='social'>
+
+    </div>
+{{else}}
+    <div class='content_course'>
+        <div class='header_course'>
+
+            <div class='logo-app'>
+                <img class='logo-app-image' src='/image/logo.png' />
+            </div>
+            <div class='user'>
+                <div class='user-content'>
+                    {{#each users}}
+                        <p class='name'>
+                            {{this.latsName}}
+                            {{this.firstName}}
+                        </p>
+                    {{/each}}
+                </div>
+                <div class='user-icon'>
+
+                    <P><i class='fas fa-home'></i></P>
+                    <p><i class='fas fa-bell'></i></p>
+                    <p><i class='fas fa-cog setting'></i></p>
+                </div>
+
+                <div class='content_setting_none'>
+                    <div class='btn_logout'>
+                        <a href='/' class='link_logout'>Log out</a>
+                    </div>
+                    <div class='btn_pass'>
+                        <a href='/change-pass-word' class='link_changePass'>change pass</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='sizebar'>
+            <div class='btn sizebar-home home'>
+                <button><a href='/user/home'>Home</a></button>
+
+            </div>
+            <div class='btn courses'>
+                <button class='courses-btn'><a href='/post/home-work'>post Homework</a></button>
+            </div>
+            <div class='btn skills'>
+                <button class='skills-btn'><a href='/post/document'>Post Documents</a></button>
+            </div>
+            <div class='btn grammar'>
+                <button class='gammar-btn'><a href='/add'>Add Students</a></button>
+            </div>
+            <div class='btn vocabulary'>
+                <button class='vocabulary-btn'><a href='/advice'>Advice</a></button>
+            </div>
+            <div class='btn schedule'>
+                <button class='vocabulary-btn'><a href='/post/schedule'>Schedule</a></button>
+            </div>
+        </div>
+    </div>
+    <div class='student_management'>
+        <div class='table-score'>
+            <div class='title'>
+                <div class='title_name'><h1>name</h1></div>
+                <div class='title_name'><h1>scores</h1></div>
+                <div class='title_name'><h1>classify</h1></div>
+            </div>
+            {{#each members}}
+                <div class='title'>
+                    <div class='title_name'><a href='/student/{{this.email}}'>{{this.latsName}}
+                            {{this.firstName}}</a></div>
+                    <div class='title_name'><p>{{this.score}}</p></div>
+                    <div class='title_name'><p>{{this.evaluate}}</p></div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+{{/if}}
